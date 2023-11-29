@@ -1,0 +1,26 @@
+.footer_container {
+  background-color: black;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterText {
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .footer_container {
+    margin: -8px;
+  }
+  .FooterText {
+    font-size: 12px;
+    flex-direction: column;
+    width: 133.59px;
+    height: 46px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

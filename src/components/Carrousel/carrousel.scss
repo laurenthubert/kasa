@@ -1,0 +1,56 @@
+
+ .caroussel_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+.caroussel__img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    height: 415px;
+}
+ .caroussel__arrowright{
+    cursor: pointer;
+    position: absolute;
+    left: 2%;
+    top: 46%;
+    border: none;
+    
+}
+
+.caroussel__arrowleft{
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 46%;
+   border: none;
+}
+.caroussel__compt{
+    position: absolute;
+
+    bottom: 0%;
+ 
+    color: white;
+    font-weight: 700;
+ }
+
+//  Responsiv mobile
+ @media (max-width:767px) {
+    .caroussel__img{
+        height: 255px;
+        }
+         .caroussel__arrowright{
+            width: 7%;
+         }
+         .caroussel__arrowleft{
+            width: 7%;
+         }
+         .caroussel__compt{
+            display: none;
+         }
+
+     }
+
+    

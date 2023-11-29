@@ -1,0 +1,29 @@
+.host__container {
+  align-items: center;
+  display: flex;
+}
+
+.host__picture {
+  border-radius: 50%;
+  height: 90px;
+  margin: 0 0 0 30px;
+  width: 90px;
+}
+
+.host__name {
+  font-size: 18px;
+  margin: 0;
+  width: 60px;
+}
+
+@media (max-width: 768px) {
+  .host__name {
+    font-size: 12px;
+    line-height: 17.11px;
+  }
+  .host__picture {
+    width: 32px;
+    height: 32px;
+    margin-left: -15px;
+  }
+}/*# sourceMappingURL=host.css.map */

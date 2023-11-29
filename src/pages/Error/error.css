@@ -1,0 +1,43 @@
+.error_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FF6060;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.title_error {
+  font-size: 288px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.text_error {
+  font-size: 36px;
+  margin: 0;
+}
+
+.LinkError {
+  color: #FF6060;
+  font-size: 18px;
+  margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+  .title_error {
+    font-size: 96px;
+    font-weight: 900;
+    margin: 100px 0;
+  }
+  .text_error {
+    width: 260px;
+    font-size: 18px;
+  }
+  .error_container {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=error.css.map */
