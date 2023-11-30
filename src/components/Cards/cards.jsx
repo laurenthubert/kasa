@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../components/Cards/cards.scss';
+import './cards.scss';
 
 const Cards = ({ id, cover, title }) => (
   <Link to={`/logements/${id}`} className='cards'>

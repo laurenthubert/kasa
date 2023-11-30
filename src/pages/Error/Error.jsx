@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../../pages/Error/error.scss";
+import "./error.scss";
 
 const Error = () => (
   <div className='error_container'>

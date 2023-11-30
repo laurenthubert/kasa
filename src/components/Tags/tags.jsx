@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../components/Tags/tags.scss';
+import './tags.scss';
 
 const Tags = ({ location }) => {
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import dropUP from "../../assets/dropUP.png"
-import'../Collapse/collapse.scss';
+import'./collapse.scss';
 
 const Collapse = ({ title, content }) => {
   const [collapse, setCollapse] = useState(false);

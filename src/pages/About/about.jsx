@@ -2,7 +2,7 @@ import React from 'react';
 import Aboutbanner from '../../assets/aboutbanner.png';
 import Banner from '../../components/Banner/banner';
 import Collapse from '../../components/Collapse/collapse';
-import '.././About/about.scss';
+import './about.scss';
 
 const aboutSections = [
   {
