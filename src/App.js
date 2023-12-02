@@ -7,7 +7,6 @@ import Header from "./components/Header/header";
 import Footer from './components/Footer/footer';
 import Logements from './pages/Logements/logements';
 
-
 export default function App() {
   return (
     <div className='container'>
@@ -20,7 +19,6 @@ export default function App() {
         </Routes>
         <Footer/>
     </div>
-
   )
 }
 

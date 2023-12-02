@@ -6,21 +6,20 @@
    text-align: center;
    color: #FF6060;
    width: 80%;
-   margin: auto;
-   padding-bottom: 30px;
+   margin-bottom: 250px;
+   margin-top: 250px;
+   margin-left: 10%;
 }
+
 .title_error{
     font-size: 288px;
     font-weight: 900;
     margin: 0;
-    
-
-    
 }
+
 .text_error{
     font-size: 36px;
     margin: 0;
-   
 }
 
 .LinkError{
@@ -38,8 +37,5 @@
     .text_error{
         width: 260px;
         font-size: 18px;
-    }
-    .error_container{
-        margin-bottom: 50px;
     }
 }

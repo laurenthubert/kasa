@@ -2,9 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0 100px;
-  max-width: 1440px;
+  margin: auto;
+  max-width: 1240px;
   font-family: "Monserrat", sans-serif;
 }
 

@@ -6,8 +6,9 @@
   text-align: center;
   color: #FF6060;
   width: 80%;
-  margin: auto;
-  padding-bottom: 30px;
+  margin-bottom: 250px;
+  margin-top: 250px;
+  margin-left: 10%;
 }
 
 .title_error {
@@ -36,8 +37,5 @@
   .text_error {
     width: 260px;
     font-size: 18px;
-  }
-  .error_container {
-    margin-bottom: 50px;
   }
 }/*# sourceMappingURL=error.css.map */

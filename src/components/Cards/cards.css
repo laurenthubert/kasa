@@ -3,11 +3,11 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1240px;
-  margin: auto;
   background-color: #F6F6F6;
   border-radius: 25px;
   gap: 50px;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 .cards {
@@ -47,9 +47,10 @@
 @media (max-width: 767px) {
   .cards_home {
     gap: 20px;
-    padding-bottom: 27px;
+    margin-bottom: 50px;
   }
   .cards {
     width: 100%;
+    margin-left: 4%;
   }
 }/*# sourceMappingURL=cards.css.map */
