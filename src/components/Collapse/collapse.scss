@@ -2,7 +2,7 @@
   width: 90%;
   margin: 5%;
   margin-bottom: 20px;
-  border-radius: 3%;
+  border-radius: 5%;
   margin: 0 auto 3% auto;
   &__title__img {
     margin: auto;
@@ -10,15 +10,14 @@
     padding: 3px 10px;
     justify-content: space-between;
     background: #FF6060;
-    width: 50%;
     align-items: center;
     color: white;
     border-radius: 5px;
-    width: 95%;
   }
   &__text {
     margin: 0;
     padding: 15px;
+    width: 70%;
   }
 }
 
