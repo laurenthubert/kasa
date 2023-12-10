@@ -1,9 +1,12 @@
 .collapse {
   width: 90%;
-  margin: 5%;
   margin-bottom: 20px;
   border-radius: 5%;
   margin: 0 auto 3% auto;
+  @media (max-width: 767px) {
+    margin-top: 20px;
+    width: 100%;
+  }
   &__title__img {
     margin: auto;
     display: flex;
@@ -13,11 +16,17 @@
     align-items: center;
     color: white;
     border-radius: 5px;
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
   }
   &__text {
     margin: 0;
     padding: 15px;
-    width: 70%;
+    width: 97%;
+    @media (max-width: 767px) {
+      text-align: left;
+    }
   }
 }
 

@@ -7,9 +7,9 @@
     position: relative;
     &_text{
         color: white;
-        font-size: 45px;
+        font-size: 42px;
         font-weight: 500;
-        width: 700px;
+        width: 705px;
         position: absolute;
         top: 30%;
         left: 50%;
@@ -27,14 +27,18 @@
 
 @media (max-width:767px){
     .banner{
+        width: 95%;
         height: 111px;
-         margin-bottom: 110px;
+         margin-bottom: 0px;
         &_text {
             font-size: 24px;;
-            top: 75%;
+            top: 25%;
+            left: 115px;
             text-align: left;
-            width: 100%;
-            text-align: center;
+            width: 217px;
+        }
+        &_img{
+            height: 111px;
         }
     }
 }

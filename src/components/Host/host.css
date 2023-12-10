@@ -20,6 +20,7 @@
   .host__name {
     font-size: 12px;
     line-height: 17.11px;
+    margin-right: 25px;
   }
   .host__picture {
     width: 32px;

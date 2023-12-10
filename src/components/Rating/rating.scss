@@ -5,7 +5,9 @@
 }
 
 .rating{
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
 }
 
 // responsiv mobil 
@@ -19,5 +21,6 @@
     .rating{
         align-items: center;
         display: flex;
+        padding: 0;
     }
 }

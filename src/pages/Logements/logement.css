@@ -1,9 +1,12 @@
 .logement {
-  padding: 0px 100px;
+  padding: 0px;
+  max-width: 1240px;
+  margin: auto;
 }
 
 .logement__collapse__container {
   display: flex;
+  gap: 76px;
 }
 
 .logement .renseignement__container {
@@ -46,6 +49,7 @@
 @media (max-width: 767px) {
   .logement {
     padding: 0px;
+    width: 95%;
   }
   .logement .renseignement__container .renseignement__left .renseignement__info .renseignement__title {
     font-size: 18px;
@@ -62,7 +66,7 @@
   }
   .logement__collapse__container {
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
   }
   .logement .renseignement__container .rating__host {
     display: flex;

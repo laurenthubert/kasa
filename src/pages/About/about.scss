@@ -1,26 +1,16 @@
 .aboutCollapse{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 105px;
     width: 80%;
-    height: 600px;
     max-width: 1200px;
 }
 
-@media (max-width:1350px){
-    .aboutCollapse{
-        margin-top: 150px;
-        margin-bottom: 320px;
-        height: 100%;
-    }
- }
+
 
 //Responsiv mobile
 @media (max-width:767px){
     .aboutCollapse{
-        margin-top: 300px;
-        margin-bottom: 320px;
-        height: 100%;
+       width: 100%;
     }
  }
  

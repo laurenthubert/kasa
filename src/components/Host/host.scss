@@ -1,27 +1,39 @@
 .host__container{
-    align-items: center;
     display: flex;
+ margin: 0 0 0 50px;
+    align-items: center;
+    height: 70px;
 }
 
 .host__picture{
     border-radius: 50%;
-    height: 90px;
-    margin: 0 0 0 30px;
-    width: 90px;
+    height: 70px;
+    margin:  0  0  0 30px;
+    width: 70px;
 }
 
 .host__name{
     font-size: 18px;
-    margin: 0;
+   
     width: 60px;
+ display: flex;
+
+text-align: right;
+
 }
 
 // responsiv mobil
  
 @media (max-width: 768px){
+    .host__container{
+        height: 32px;
+    }
    .host__name{
             font-size: 12px;
             line-height: 17.11px;
+            margin-right: 25px;
+            margin-bottom: 0;
+            margin-top: 0;
         }
 
         .host__picture{
@@ -29,6 +41,7 @@
             height: 32px;
             margin-left: -15px;
         }
+
     }
 
     
