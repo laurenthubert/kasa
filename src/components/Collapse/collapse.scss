@@ -16,9 +16,6 @@
     align-items: center;
     color: white;
     border-radius: 5px;
-    @media (max-width: 767px) {
-      margin-bottom: 20px;
-    }
   }
   &__text {
     margin: 0;

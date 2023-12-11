@@ -38,7 +38,9 @@
 
 //  Responsiv mobile
  @media (max-width:767px) {
-   
+         .caroussel__img{
+            height: 255px;
+          }
          .caroussel__arrowright{
             width: 7%;
          }
@@ -48,7 +50,7 @@
          .caroussel__compt{
             display: none;
          }
-.caroussel_container{
-   margin-bottom: 5px;
+        .caroussel_container{
+            margin-bottom: 5px;
 }
      }
