@@ -16,6 +16,9 @@
     align-items: center;
     color: white;
     border-radius: 5px;
+    @media (max-width: 767px) {
+      height: 30px;
+    }
   }
   &__text {
     margin: 0;
@@ -23,6 +26,7 @@
     width: 97%;
     @media (max-width: 767px) {
       text-align: left;
+      size: 13px;
     }
   }
 }
